@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DBM Iso Express - Bags de Motoboy</title>
+  <style>
+    body {
+      margin: 0; font-family: Arial, sans-serif; background: #000; color: #fff;
+    }
+    header {
+      background: #ffcc00;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: #000;
+    }
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .banner {
+      background: url('https://images.unsplash.com/photo-1564869736423-9a746bd8e09b?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: #ffcc00;
+      text-shadow: 2px 2px 5px #000;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .produtos {
+      max-width: 900px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 0 20px;
+    }
+    .produto {
+      background: #222;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    .produto h3 {
+      color: #ffcc00;
+      margin: 10px 0 5px;
+    }
+    .produto p {
+      font-size: 0.9em;
+      margin: 5px 0 15px;
+    }
+    .btn-whatsapp {
+      background: #25d366;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>DBM Iso Express</div>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="banner">
+    Bags resistentes para quem corre a cidade
+  </section>
+
+  <section id="produtos" class="produtos">
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1600185365774-c0d9f22bba1d?auto=format&fit=crop&w=400&q=80" alt="Bag Motoboy Modelo A" />
+      <h3>Bag Modelo A</h3>
+      <p>Durável e espaçosa, perfeita para entregas rápidas.</p>
+      <a href="https://wa.me/5511999999999" target="_blank" class="btn-whatsapp">Comprar no WhatsApp</a>
+    </div>
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1579472676923-c7d331bf20f9?auto=format&fit=crop&w=400&q=80" alt="Bag Motoboy Modelo B" />
+      <h3>Bag Modelo B</h3>
+      <p>Leve, resistente e com compartimentos extras.</p>
+      <a href="https://wa.me/5511999999999" target="_blank" class="btn-whatsapp">Comprar no WhatsApp</a>
+    </div>
+  </section>
+
+  <footer id="contato">
+    Contato: (11) 99999-9999 | Redes sociais: @dbmisosbags<br />
+    © 2025 DBM Iso Express
+  </footer>
+</body>
+</html>
